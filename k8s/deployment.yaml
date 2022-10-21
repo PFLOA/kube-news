@@ -54,7 +54,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: pfloa/kube-news:v1
+          image: pfloa/kube-news:{{TAG}}
           ports:
           - containerPort: 8080
           env:
